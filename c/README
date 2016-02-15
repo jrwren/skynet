@@ -1,0 +1,6 @@
+
+to build:
+
+git clone https://github.com/tylertreat/chan.git
+pushd chan && ./autogen.sh && ./configure && make ; popd
+make
